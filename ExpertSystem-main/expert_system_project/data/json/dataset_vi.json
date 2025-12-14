@@ -1,0 +1,5597 @@
+{
+    "rules": [
+        {
+            "code": "R0001",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 19,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0002",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 25,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0003",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 25,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0004",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 25,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0005",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 25,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0006",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 25,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0007",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 25,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0008",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 25,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0009",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 28,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0010",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 28,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0011",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 28,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0012",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0013",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0014",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0015",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0016",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0017",
+            "conclusion": "Pancreatitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0018",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0019",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 29,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0020",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0021",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 29,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0022",
+            "conclusion": "Urinary Tract Infection",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 29,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0023",
+            "conclusion": "Dengue Fever",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0024",
+            "conclusion": "Dengue Fever",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0025",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0026",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0027",
+            "conclusion": "Hepatitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0028",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0029",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0030",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0031",
+            "conclusion": "Muscular Dystrophy",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0032",
+            "conclusion": "Sinusitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0033",
+            "conclusion": "Ulcerative Colitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0034",
+            "conclusion": "Ulcerative Colitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0035",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0036",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0037",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0038",
+            "conclusion": "Bipolar Disorder",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0039",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0040",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0041",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0042",
+            "conclusion": "Cerebral Palsy",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0043",
+            "conclusion": "Colorectal Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0044",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0045",
+            "conclusion": "Hypertensive Heart Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0046",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0047",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0048",
+            "conclusion": "Multiple Sclerosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0049",
+            "conclusion": "Myocardial Infarction (Heart...",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0050",
+            "conclusion": "Urinary Tract Infection (UTI)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 30,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0051",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 31,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0052",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 31,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0053",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 31,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0054",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 31,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0055",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 32,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0056",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0057",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0058",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0059",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0060",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0061",
+            "conclusion": "Atherosclerosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0062",
+            "conclusion": "Chronic Obstructive Pulmonary...",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0063",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0064",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0065",
+            "conclusion": "Epilepsy",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0066",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0067",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0068",
+            "conclusion": "Obsessive-Compulsive Disorde...",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0069",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0070",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0071",
+            "conclusion": "Psoriasis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0072",
+            "conclusion": "Psoriasis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0073",
+            "conclusion": "Rubella",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0074",
+            "conclusion": "Rubella",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0075",
+            "conclusion": "Urinary Tract Infection (UTI)",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0076",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0077",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0078",
+            "conclusion": "Cirrhosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0079",
+            "conclusion": "Conjunctivitis (Pink Eye)",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0080",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0081",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0082",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0083",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0084",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0085",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0086",
+            "conclusion": "Liver Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0087",
+            "conclusion": "Malaria",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0088",
+            "conclusion": "Malaria",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0089",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0090",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0091",
+            "conclusion": "Pancreatitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0092",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0093",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0094",
+            "conclusion": "Spina Bifida",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0095",
+            "conclusion": "Ulcerative Colitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0096",
+            "conclusion": "Ulcerative Colitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0097",
+            "conclusion": "Urinary Tract Infection",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 35,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0098",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0099",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0100",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0101",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0102",
+            "conclusion": "Kidney Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0103",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0104",
+            "conclusion": "Liver Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0105",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0106",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0107",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0108",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0109",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0110",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0111",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 38,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0112",
+            "conclusion": "Klinefelter Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 39,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0113",
+            "conclusion": "Acne",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0114",
+            "conclusion": "Brain Tumor",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0115",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0116",
+            "conclusion": "Cystic Fibrosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0117",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0118",
+            "conclusion": "Glaucoma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0119",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0120",
+            "conclusion": "Rabies",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0121",
+            "conclusion": "Rabies",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0122",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0123",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0124",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0125",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0126",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0127",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0128",
+            "conclusion": "Chickenpox",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0129",
+            "conclusion": "Chickenpox",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0130",
+            "conclusion": "Coronary Artery Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0131",
+            "conclusion": "Eating Disorders (Anorexia,...",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0132",
+            "conclusion": "Fibromyalgia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0133",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0134",
+            "conclusion": "Hemophilia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0135",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0136",
+            "conclusion": "Hypoglycemia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0137",
+            "conclusion": "Lymphoma",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0138",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0139",
+            "conclusion": "Psoriasis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0140",
+            "conclusion": "Psoriasis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0141",
+            "conclusion": "Psoriasis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 40,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0142",
+            "conclusion": "Tuberculosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0143",
+            "conclusion": "Tuberculosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 40,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0144",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0145",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0146",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0147",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0148",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0149",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0150",
+            "conclusion": "Liver Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0151",
+            "conclusion": "Lung Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0152",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0153",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0154",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0155",
+            "conclusion": "Urinary Tract Infection",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0156",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0157",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0158",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0159",
+            "conclusion": "Kidney Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 42,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0160",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 43,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0161",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0162",
+            "conclusion": "Autism Spectrum Disorder (ASD)",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0163",
+            "conclusion": "Crohn's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0164",
+            "conclusion": "Hepatitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0165",
+            "conclusion": "Hepatitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0166",
+            "conclusion": "Hyperglycemia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0167",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0168",
+            "conclusion": "Kidney Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0169",
+            "conclusion": "Melanoma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0170",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0171",
+            "conclusion": "Ovarian Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0172",
+            "conclusion": "Pancreatitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0173",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0174",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0175",
+            "conclusion": "Turner Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0176",
+            "conclusion": "Turner Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0177",
+            "conclusion": "Urinary Tract Infection",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0178",
+            "conclusion": "Zika Virus",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0179",
+            "conclusion": "Zika Virus",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0180",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0181",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0182",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0183",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0184",
+            "conclusion": "Cataracts",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0185",
+            "conclusion": "Crohn's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0186",
+            "conclusion": "Crohn's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0187",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0188",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0189",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0190",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0191",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0192",
+            "conclusion": "Liver Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0193",
+            "conclusion": "Multiple Sclerosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0194",
+            "conclusion": "Multiple Sclerosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0195",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0196",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0197",
+            "conclusion": "Pneumocystis Pneumonia (PCP)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0198",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0199",
+            "conclusion": "Scoliosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0200",
+            "conclusion": "Sickle Cell Anemia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0201",
+            "conclusion": "Tetanus",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0202",
+            "conclusion": "Tetanus",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 45,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0203",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 48,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0204",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 48,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0205",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 48,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0206",
+            "conclusion": "Allergic Rhinitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0207",
+            "conclusion": "Anemia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0208",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0209",
+            "conclusion": "Cholera",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0210",
+            "conclusion": "Cholera",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0211",
+            "conclusion": "Crohn's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0212",
+            "conclusion": "Crohn's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0213",
+            "conclusion": "Depression",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0214",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0215",
+            "conclusion": "Endometriosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0216",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0217",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0218",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0219",
+            "conclusion": "Kidney Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0220",
+            "conclusion": "Pancreatitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0221",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Thấp",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0222",
+            "conclusion": "Sepsis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0223",
+            "conclusion": "Sleep Apnea",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0224",
+            "conclusion": "Urinary Tract Infection",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0225",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0226",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0227",
+            "conclusion": "Down Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0228",
+            "conclusion": "Ebola Virus",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0229",
+            "conclusion": "Ebola Virus",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0230",
+            "conclusion": "Eczema",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0231",
+            "conclusion": "Gastroenteritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0232",
+            "conclusion": "Klinefelter Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0233",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0234",
+            "conclusion": "Lyme Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0235",
+            "conclusion": "Lyme Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0236",
+            "conclusion": "Pancreatic Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0237",
+            "conclusion": "Pneumothorax",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0238",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 50,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0239",
+            "conclusion": "Ulcerative Colitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 50,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0240",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 52,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0241",
+            "conclusion": "Multiple Sclerosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 52,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0242",
+            "conclusion": "Multiple Sclerosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 52,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0243",
+            "conclusion": "Appendicitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0244",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0245",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0246",
+            "conclusion": "Common Cold",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0247",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0248",
+            "conclusion": "Esophageal Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0249",
+            "conclusion": "HIV/AIDS",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0250",
+            "conclusion": "HIV/AIDS",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0251",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0252",
+            "conclusion": "Liver Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0253",
+            "conclusion": "Marfan Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0254",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0255",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0256",
+            "conclusion": "Parkinson's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0257",
+            "conclusion": "Parkinson's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0258",
+            "conclusion": "Anxiety Disorders",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0259",
+            "conclusion": "Coronary Artery Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0260",
+            "conclusion": "Coronary Artery Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0261",
+            "conclusion": "Hemorrhoids",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0262",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0263",
+            "conclusion": "Hypothyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0264",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0265",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0266",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0267",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0268",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0269",
+            "conclusion": "Polycystic Ovary Syndrome (PCOS)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0270",
+            "conclusion": "Systemic Lupus Erythematosus...",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0271",
+            "conclusion": "Typhoid Fever",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0272",
+            "conclusion": "Typhoid Fever",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 55,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0273",
+            "conclusion": "Influenza",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 56,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0274",
+            "conclusion": "Pneumonia",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 57,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0275",
+            "conclusion": "Breast Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0276",
+            "conclusion": "Coronary Artery Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0277",
+            "conclusion": "Coronary Artery Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0278",
+            "conclusion": "Hyperthyroidism",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0279",
+            "conclusion": "Measles",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0280",
+            "conclusion": "Measles",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0281",
+            "conclusion": "Osteoarthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Có",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0282",
+            "conclusion": "Osteomyelitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0283",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0284",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0285",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0286",
+            "conclusion": "Polio",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0287",
+            "conclusion": "Asthma",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0288",
+            "conclusion": "Chronic Kidney Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0289",
+            "conclusion": "Hemophilia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0290",
+            "conclusion": "Hepatitis B",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0291",
+            "conclusion": "Hepatitis B",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0292",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0293",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0294",
+            "conclusion": "Hypertension",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0295",
+            "conclusion": "Kidney Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0296",
+            "conclusion": "Kidney Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0297",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0298",
+            "conclusion": "Pancreatitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0299",
+            "conclusion": "Parkinson's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0300",
+            "conclusion": "Parkinson's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0301",
+            "conclusion": "Prader-Willi Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0302",
+            "conclusion": "Rheumatoid Arthritis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0303",
+            "conclusion": "Thyroid Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0304",
+            "conclusion": "Tuberculosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 60,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0305",
+            "conclusion": "Bladder Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0306",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0307",
+            "conclusion": "Otitis Media (Ear Infection)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0308",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0309",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Thấp",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0310",
+            "conclusion": "Tourette Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0311",
+            "conclusion": "Urinary Tract Infection (UTI)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0312",
+            "conclusion": "Alzheimer's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0313",
+            "conclusion": "Alzheimer's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0314",
+            "conclusion": "Alzheimer's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0315",
+            "conclusion": "Bronchitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0316",
+            "conclusion": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0317",
+            "conclusion": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0318",
+            "conclusion": "Dementia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0319",
+            "conclusion": "Diabetes",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0320",
+            "conclusion": "Diverticulitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0321",
+            "conclusion": "Liver Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0322",
+            "conclusion": "Lung Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0323",
+            "conclusion": "Lung Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0324",
+            "conclusion": "Mumps",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0325",
+            "conclusion": "Mumps",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0326",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0327",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 65,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0328",
+            "conclusion": "Alzheimer's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0329",
+            "conclusion": "Alzheimer's Disease",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0330",
+            "conclusion": "Cholecystitis",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0331",
+            "conclusion": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0332",
+            "conclusion": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Có",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0333",
+            "conclusion": "Osteoporosis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0334",
+            "conclusion": "Parkinson's Disease",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0335",
+            "conclusion": "Prostate Cancer",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0336",
+            "conclusion": "Schizophrenia",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Negative"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0337",
+            "conclusion": "Gout",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0338",
+            "conclusion": "Migraine",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0339",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0340",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Có",
+                "Mệt mỏi": "Không",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nam",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0341",
+            "conclusion": "Testicular Cancer",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0342",
+            "conclusion": "Tonsillitis",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Có",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0343",
+            "conclusion": "Williams Syndrome",
+            "conditions": {
+                "Sốt": "Không",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 70,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Bình thường",
+                "Mỡ máu": "Bình thường",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0344",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 80,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0345",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 80,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0346",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 85,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0347",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 85,
+                "Giới tính": "Nam",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0348",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 90,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        },
+        {
+            "code": "R0349",
+            "conclusion": "Stroke",
+            "conditions": {
+                "Sốt": "Có",
+                "Ho": "Không",
+                "Mệt mỏi": "Có",
+                "Khó thở": "Không",
+                "Tuổi": 90,
+                "Giới tính": "Nữ",
+                "Huyết áp": "Cao",
+                "Mỡ máu": "Cao",
+                "Outcome Variable": "Positive"
+            },
+            "advice": "Tham khảo ý kiến bác sĩ nếu triệu chứng kéo dài."
+        }
+    ],
+    "symptom_keywords": {
+    "Sốt": ["sốt", "nóng sốt", "sốt cao"],
+    "Ho": ["ho", "ho nhiều", "ho khan"],
+    "Mệt mỏi": ["mệt mỏi", "kiệt sức", "uể oải"],
+    "Khó thở": ["khó thở", "thở gấp", "thở khó"],
+    "Huyết áp": ["huyết áp cao", "huyết áp thấp"],
+    "Mỡ máu": ["mỡ máu cao", "mỡ máu bình thường"],
+    "Đau đầu": ["đau đầu", "nhức đầu", "choáng váng"]
+  }
+}
